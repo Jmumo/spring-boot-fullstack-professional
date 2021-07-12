@@ -205,7 +205,7 @@ function App() {
             </>
           )}
           pagination={{ pageSize: 10 }}
-          scroll={{ y: 40 }}
+          scroll={{ y: 100 }}
           rowKey={(student) => student.id}
         />
       </>
